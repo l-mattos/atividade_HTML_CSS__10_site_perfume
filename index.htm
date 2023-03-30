@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loja Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="container-fluid p-0 overflow-x-hidden">
+
+        <!-- Cabeçalho -->
+        <div class="row">
+            <div class="col-4">
+                <img src="img/logo.gif" class="img-fluid w-25 mx-auto d-block" alt="logo">
+            </div>
+            <!-- Atualizar depois -->
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="row mt-3">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar bg-light" data-bs-theme="light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Perfumes
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                                    <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                                    <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Corpo e Banho
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li><a class="dropdown-item" href="#">Corpo e Banho</a></li>
+                                    <li><a class="dropdown-item" href="#">Corpo e Banho</a></li>
+                                    <li><a class="dropdown-item" href="#">Corpo e Banho</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Linha Ambiente
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li><a class="dropdown-item" href="#">Linha Ambiente</a></li>
+                                    <li><a class="dropdown-item" href="#">Linha Ambiente</a></li>
+                                    <li><a class="dropdown-item" href="#">Linha Ambiente</a></li>
+                                </ul>
+                            <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Promoções
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li><a class="dropdown-item" href="#">Promoções</a></li>
+                                    <li><a class="dropdown-item" href="#">Promoções</a></li>
+                                    <li><a class="dropdown-item" href="#">Promoções</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel de produtos -->
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carrousel.png" class="d-block w-100" alt="RTX 4090">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra -->
+    <div class="row bg-light">
+        <div class="col">
+            <div class="container fs-6">
+                <div class="row p-4">
+                    <div class="col-1">
+                        <img src="img/porcentagem.png" alt="" width="100px">
+                    </div>
+                    <div class="col-2"><br>
+                        <p><b>Frete Grátis</b><br>
+                            Nas Compras a partir de <br> R$400,00</p>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/cartao.png" alt="" width="100px">
+                    </div>
+                    <div class="col-2">
+                        <br>
+                        <p><b>Pague no Cartão</b><br>
+                            Parcelado em até 12x sem juros</p>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/check.png" alt="" width="100px">
+                    </div>
+                    <div class="col-2">
+                        <br>
+                        <p><b>Site Seguro</b><br>
+                            Blindado com Certificado SSL</p>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/carrinho.png" alt="" width="100px">
+                    </div>
+                    <div class="col-2"><br>
+                        <p><b>Prazo de Entrega</b><br>
+                            Envio em até 5 dias úteis+ <br> Prazo do transpontador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteudo -->
+
+    <div class="col"><br>
+        <br>
+        <!-- linha do titulo -->
+
+        <div class="row text-center">
+            <div class="col">
+                <h2>Últimos Lançamentos</h2><br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <!-- linha de produtos -->
+
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <div class="row m-5">
+                        <div class="col-3">
+                            <div class="border-bottom">
+                                <img src="img/perfume.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center m-4">Perfume Ipsum Selvagem</p>
+                                    <h5 class="card-title text-center">R$ 32,90</h5>
+                                    <p class="card-text text-center m-4"><b>6x</b> de <b>R$5,48</b> sem juros</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="border-bottom">
+                                <img src="img/perfume.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center m-4">Perfume Lorem Selvagem</p>
+                                    <h5 class="card-title text-center">R$ 32,90</h5>
+                                    <p class="card-text text-center m-4"><b>6x</b> de <b>R$5,48</b> sem juros</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="border-bottom">
+                                <img src="img/perfume.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center m-4">Perfume Dolor Selvagem</p>
+                                    <h5 class="card-title text-center">R$ 32,90</h5>
+                                    <p class="card-text text-center m-4"><b>6x</b> de <b>R$5,48</b> sem juros</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="border-bottom">
+                                <img src="img/perfume.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center m-4">Perfume Siamet Selvagem</p>
+                                    <h5 class="card-title text-center">R$ 32,90</h5>
+                                    <p class="card-text text-center m-4"><b>6x</b> de <b>R$5,48</b> sem juros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quem somos-->
+        <div class="row bg-light p-5 fs-6">
+            <div class="col-4">
+                <h3>Quem Somos?</h3><br>
+                <p>A Lorem Ipsum Cosméticos é uma empresa brasileira fundada em 2011 com o objetivo de atuar como
+                    perfumaria de acesso e prover o mercado com produtos de qualidade internacional e preço justo.
+                    Fazemos perfumaria com ciência, amor e arte, assim combinamos notas aromáticas para criar
+                    acordes
+                    inesquecíveis que são verdadeiras sinfonias de sentidos.</p>
+            </div>
+            <div class="col-4">
+                <h3>Categorias</h3>
+                <div class="card-body"><br>
+                    <p class="card-text">Perfumes Masculinos</p>
+                    <p class="card-text">Perfume Femininos</p>
+                    <p class="card-text">Hidratantes</p>
+                    <p class="card-text">Desodorantes</p>
+                    <p class="card-text">Para sua casa</p>
+                    <p class="card-text">Promoções</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <h3>Institucional</h3><br>
+                <div class="card-body">
+                    <p class="card-text">Quem somos</p>
+                    <p class="card-text">Sobre perfumes</p>
+                    <p class="card-text">Dicas de Perfumista</p>
+                    <p class="card-text">Política de Privacidade</p>
+                    <p class="card-text">Entregas</p>
+                    <p class="card-text">Pagamentos</p>
+                    <p class="card-text">Trocas e Devoluções</p>
+                </div>
+            </div>
+            <div class="border-bottom m-5"></div>
+        </div>
+        <!-- Rodapé -->
+        <div class="row bg-black text-white">
+            <div class="col text-left p-3 ms-5">
+                <p class="m-0">Copyright Lorem Ipsum Cosméticos - 2032. Todos os direitos reservados.</p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
